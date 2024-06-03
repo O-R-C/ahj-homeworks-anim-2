@@ -1,0 +1,42 @@
+@value colorMain: #1079ba;
+
+.callback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  width: 300px;
+
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+
+  & textarea {
+    resize: none;
+
+    padding: 10px;
+
+    border: 1px solid colorMain;
+    border-radius: 10px;
+  }
+
+  & button {
+    cursor: pointer;
+    background: transparent;
+  }
+
+  & .btn-send {
+    padding: 5px;
+    border: 1px solid colorMain;
+    border-radius: 10px;
+  }
+
+  & .btn-close {
+    position: absolute;
+    top: 16px;
+    right: 0;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
