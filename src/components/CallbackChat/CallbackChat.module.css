@@ -1,0 +1,12 @@
+.callback-chat {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 10;
+}
+
+.hidden {
+  transform: scale(0);
+
+  transition: transform 0.1s linear;
+}
